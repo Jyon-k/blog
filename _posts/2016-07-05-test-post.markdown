@@ -1,3 +1,7 @@
+---
+layout: post
+title:  "Test Post"
+---
 <Test Post>
 This is my the first post on Jekyll blog
 which I made up right before.
