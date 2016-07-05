@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Day 0001"
+---
+For daily commit.
+The First thing is this, Jekyll Blog.
+I just follow [this post], so I need to study more about jekyll.
+
+With this blog, I will post about my daily commits which will be about various subjects. And the First subject might be Database because I am going to make my own toy DB.
+
+And also, this look like being a big help for my english.
+
+
+[this post]: http://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/
