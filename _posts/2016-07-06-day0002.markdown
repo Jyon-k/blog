@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Day 0002"
+---
+Toy DB named selfDB
+
+Today, I start developing my own toy DB.
+I start with row table. And fuctions are create, select.
+Because it is just start, it do not work with commands similar with query, just with simple layout.
+
+I got some prblem with my selfDB dealing with multiple tables. It looks having some troubles with STL map, but I do not know actually what is the problem and how to fix it.
+With detail, the problems are
+    When call select function, I get the table name as an input which is used as keys in map. With the table name, using operator[] of map to return the row table. However, in this step, the map do not return the correct row table. And after failing with select function, when I call list function, it returns strange outputs which are not the names of tables I store(actually subpart of other commands. For example, li among list and all among select all).
+
+[This] is the github url for my code.
+
+[This]: https://github.com/Jyon-k/selfDB
