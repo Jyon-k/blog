@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Day 0003"
+---
+For dauly commit.
+Last upload because I do not bring my macbook on my lab and when I went back to home, I was too tired.
+
+I fixed the prblem with day0002. It's main problem was strcpy. I do not use strcpy but just assigning copy and it might make the problem. And I change my STL from map to vector. So, I will try to change it back to map.
+
+The fixed version is also on [my github]. However, I am the beginer of github... I deleted the first one...haha... After posting this, I will re-upload the previous version.
+
+[my github]: https://github.com/Jyon-k/selfDB
