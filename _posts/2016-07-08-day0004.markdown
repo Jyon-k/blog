@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Day 0004"
+---
+For daily commit.
+
+In this time I change the input as a query format. However, only restricted commands are provided. The followings are the provided queries.
+
+    1. create <table> <input.csv> <table name>
+    2. select <column1> from <table name> [where <column2> <operator> <value>]
+    3. list
+    4. quit
+
+With the select query, column1 only provide "all(\*)" and column2 only provides "total price".
+
+
+The followings are things to do.(For those, I will mention about only the functions not in query format)
+
+    1. create database
+    2. loosen the restrictions with select query
+    3. with 1. implement list query to be able to list tables in selected database
+
+The second one might be a hard one...
+
+
+The codes are commited [here].
+
+[here]: https://github.com/Jyon-k/selfDB
