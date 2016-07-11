@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Day 0005"
+---
+For daily commit.
+
+Today, I implement more with query style inputs.
+I tried to use the following queries additionally.
+
+    1. create table <table name> <column type> <column name>
+    2. load <table name> with <input.csv>
+    3. select <column name> from <table name> with [<column name> <operator> <value>]
+
+However, I stuck in the second one. With that I got segmentation fault.
+Tomorrow, I will fix it.
+
+Additionally, I could not commit today's code becasue I am not used to using github...
+
+Too many things to study...
