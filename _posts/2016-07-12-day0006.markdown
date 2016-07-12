@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Day 0006"
+---
+For daily commit.
+
+I partially finished the work with select query. Now I can use the following select query.
+
+    1. select all from <table name> [where <column name> <operator> <value>]
+
+The next things I will try to do are as the followings
+
+    1. select specific column with select query
+    2. insert query
+
+The second one might be hard work. Beacuse it is supposed to change a large part of existing code... So, I will try it with enough time(about a week, because I do not deal with my code through weekends). However, The first one looks simple and I can handle it in short time(about 1 or 2 days).
+
+Additionally, I still not good at using github, so I couldn't upload my day0006 code. I will find the way as soon as possible.
