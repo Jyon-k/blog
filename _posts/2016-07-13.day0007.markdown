@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Day 0006"
+---
+For daily commit.
+
+Today,I finished the most basic things. Now I can use select query for specific columns. The followings are what I have done.
+
+    1. general create query
+    2. general load query
+    3. general select query
+
+And what I will try to do are
+
+    1. insert query
+    2. join query
+
+However, before implementing insert query, I need to change my data structure. Now I use just a single array for the table, and I is not good for insert and memory management. So, I will re-instruct the memory unit to make them easier.
+
+My plan of data structure is as follows.
+
+    1. Page which has record table
+    2. Segment which has page pointer array
+    3. Table get array of segment
+
+The page will be the unit of memory allocation and segment will be the unit of memory management.
+
+It looks there are a lot of things to do including fix already implmented codes such as select query and load query. So it might take a little long time. And I will try to finish it in this week.
+
+Additionally, finally I commit my code on [my github]. Now I can use merge haha...
+
+[my github]: https://github.com/Jyon-k/selfDB
