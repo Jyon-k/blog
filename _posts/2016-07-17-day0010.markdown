@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Day 0010"
+---
+For daily commit.
+
+As I planed first, I do not commit through weekend... However, I have to boost up my implementation, I work with my code on Sunday...haha...
+
+At first, I finally finish making select query with new data structer... but there are some errors with loading large file... And I found where the problem is! As I coded, I store one record with one page and it may occur heap overflow.
+
+However, I got the error code which means I do memory allocation twice. So, today night and tomorrow I have to see my codes more.
+
+After I fix them, insert might not be a big problem but join might not be that easy...
+
+[Here's] my codes.
+
+[Here's]: https://github.com/Jyon-k/selfDB

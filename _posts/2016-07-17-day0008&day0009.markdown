@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 0008 & Day 0009"
+---
+For daily commit.
+
+Too late update...
+I have to update two days.
+
+In day 0008,
+
+I finished to make segment and page structure. However, it took too long time with load query and got segmenatatio fault... I did not know what was thw problem and how to fix it. By the way, I successfully changed my data structure from sigle array to segment and page which will make me easier with implementing insert and join query.
+
+
+
+In day 0009,
+
+I worked with the select query based on segment and page. It still got segmentation fault when I tried to get the values. I have to fixed it as soon as possible to get progress with insert and join queries.
+Additionally, I  also fixed my problem with load query. The problem was there, #define. I declared maximum row counts a segement can contain and max data size a page affordable with #define and it made me get those values as  char\* type... So I changed the declarations as const int, and it make me spend extremely short time with load query.
+
+
+My codes are [here].
+
+
+[here]: https://github.com/Jyon-k/selfDB
