@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Day 0010"
+---
+For daily commit.
+Late upload...
+
+I still get error with load process. Actually it give me run-time error, so I take a little long time to the error occurs at load not select. After checking segment, page and record index, I get the error is caused by load process. It looks might take not short time to resilve it. So, my plan about insert and join process may take a little more time.
+
+Not many things to post.
+asdf
+
+My codes are commited in [here]
+
+[here]: https://github.com/Jyon-k/selfDB
