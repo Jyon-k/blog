@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Day 0010"
+title:  "Day 0012"
 ---
 For daily commit.
 
