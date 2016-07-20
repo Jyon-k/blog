@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Day 0013"
+---
+For daily commit.
+
+Today, I fixed indexing again... wow... endless index fixing...
+
+So, today I will post the result of indexing
+
+    1. Current Segment Index = (row count) / (max records per segment)
+    2. Current Page Index = ((row count) - (curSegIndex) * (segMaxRec)) / (max records per page)
+    3. Current Record Index = ((row count) - (curSegIndex) * (segMaxRec) - (curPageIndex) * (pageMaxRec)) % (pageMaxRec)
+
+If it is wrong again... hmm... I might need to calculate with small examples or get some advice from other people haha...
+Wow, the insert and join process will take forever~~~~
+
+I won't commit today again because except the indexing I did not change anything.
